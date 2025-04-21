@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Gosha/source/repos/Perumbra/build/cmake_install.cmake",
+		"C:/Users/Gosha/source/repos/Perumbra/build/external/glfw/cmake_install.cmake",
+		"C:/Users/Gosha/source/repos/Perumbra/build/external/glfw/src/cmake_install.cmake",
+		"C:/Users/Gosha/source/repos/Perumbra/build/external/glfw/examples/cmake_install.cmake",
+		"C:/Users/Gosha/source/repos/Perumbra/build/external/glfw/tests/cmake_install.cmake",
+		"C:/Users/Gosha/source/repos/Perumbra/build/external/glfw/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

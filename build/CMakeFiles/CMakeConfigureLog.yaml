@@ -1,0 +1,468 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Р’РµСЂСЃРёСЏ MSBuild 17.14.0-preview-25127-07+c012996cf РґР»СЏ .NET Framework
+      РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 18.04.2025 18:40:46.
+      
+      РџСЂРѕРµРєС‚ "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\4.0.1\\CompilerIdC\\CompilerIdC.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+      PrepareForBuild:
+        РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "Debug\\".
+        РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+        РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        РЎРѕР·РґР°РЅРёРµ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+        РћР±СЂР°С‰РµРЅРёРµ Рє "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\4.0.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Р¤Р°Р№Р» "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+        РћР±СЂР°С‰РµРЅРёРµ Рє "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\4.0.1\\CompilerIdC\\CompilerIdC.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+      
+      РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+          РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+          РћС€РёР±РѕРє: 0
+      
+      РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.83
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/4.0.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Р’РµСЂСЃРёСЏ MSBuild 17.14.0-preview-25127-07+c012996cf РґР»СЏ .NET Framework
+      РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 18.04.2025 18:40:47.
+      
+      РџСЂРѕРµРєС‚ "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+      PrepareForBuild:
+        РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "Debug\\".
+        РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+        РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        РЎРѕР·РґР°РЅРёРµ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+        РћР±СЂР°С‰РµРЅРёРµ Рє "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Р¤Р°Р№Р» "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+        РћР±СЂР°С‰РµРЅРёРµ Рє "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\4.0.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+      
+      РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+          РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+          РћС€РёР±РѕРє: 0
+      
+      РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.61
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/4.0.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-xu4583"
+      binary: "C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-xu4583"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-xu4583'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8a970.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.14.0-preview-25127-07+c012996cf РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 18.04.2025 18:40:48.
+        
+        РџСЂРѕРµРєС‚ "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xu4583\\cmTC_8a970.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_8a970.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xu4583\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_8a970.dir\\Debug\\cmTC_8a970.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_8a970.dir\\Debug\\cmTC_8a970.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_8a970.dir\\Debug\\cmTC_8a970.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8a970.dir\\Debug\\\\" /Fd"cmTC_8a970.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.44.34918.1 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8a970.dir\\Debug\\\\" /Fd"cmTC_8a970.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xu4583\\Debug\\cmTC_8a970.exe" /INCREMENTAL /ILK:"cmTC_8a970.dir\\Debug\\cmTC_8a970.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-xu4583/Debug/cmTC_8a970.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-xu4583/Debug/cmTC_8a970.lib" /MACHINE:X64  /machine:x64 cmTC_8a970.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_8a970.vcxproj -> C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xu4583\\Debug\\cmTC_8a970.exe
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "cmTC_8a970.dir\\Debug\\cmTC_8a970.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_8a970.dir\\Debug\\cmTC_8a970.tlog\\cmTC_8a970.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xu4583\\cmTC_8a970.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        
+        РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 0
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.58
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.44.34918/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.44.34918/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.34918.1
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-itkpem"
+      binary: "C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-itkpem"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-itkpem'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_28361.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.14.0-preview-25127-07+c012996cf РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 18.04.2025 18:40:49.
+        
+        РџСЂРѕРµРєС‚ "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itkpem\\cmTC_28361.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_28361.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itkpem\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_28361.dir\\Debug\\cmTC_28361.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_28361.dir\\Debug\\cmTC_28361.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_28361.dir\\Debug\\cmTC_28361.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_28361.dir\\Debug\\\\" /Fd"cmTC_28361.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.44.34918.1 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_28361.dir\\Debug\\\\" /Fd"cmTC_28361.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itkpem\\Debug\\cmTC_28361.exe" /INCREMENTAL /ILK:"cmTC_28361.dir\\Debug\\cmTC_28361.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-itkpem/Debug/cmTC_28361.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-itkpem/Debug/cmTC_28361.lib" /MACHINE:X64  /machine:x64 cmTC_28361.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_28361.vcxproj -> C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itkpem\\Debug\\cmTC_28361.exe
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "cmTC_28361.dir\\Debug\\cmTC_28361.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_28361.dir\\Debug\\cmTC_28361.tlog\\cmTC_28361.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-itkpem\\cmTC_28361.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        
+        РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 0
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.58
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.44.34918/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:264 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.44.34918/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.34918.1
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "external/glfw/CMakeLists.txt:52 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-jgbah6"
+      binary: "C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-jgbah6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Gosha/source/repos/Perumbra/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-jgbah6'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c4df9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.14.0-preview-25127-07+c012996cf РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 21.04.2025 12:00:05.
+        
+        РџСЂРѕРµРєС‚ "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgbah6\\cmTC_c4df9.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_c4df9.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgbah6\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_c4df9.dir\\Debug\\cmTC_c4df9.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_c4df9.dir\\Debug\\cmTC_c4df9.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_c4df9.dir\\Debug\\cmTC_c4df9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4df9.dir\\Debug\\\\" /Fd"cmTC_c4df9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgbah6\\src.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.44.34918.1 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4df9.dir\\Debug\\\\" /Fd"cmTC_c4df9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgbah6\\src.c"
+          src.c
+        C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgbah6\\src.c(1,10): error C1083: РќРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» РІРєР»СЋС‡РµРЅРёРµ: pthread.h: No such file or directory, [C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgbah6\\cmTC_c4df9.vcxproj]
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgbah6\\cmTC_c4df9.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) СЃ РѕС€РёР±РєРѕР№.
+        
+        РћС€РёР±РєР° СЃР±РѕСЂРєРё.
+        
+        "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgbah6\\cmTC_c4df9.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (1) ->
+        (Р¦РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ ClCompile) -> 
+          C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgbah6\\src.c(1,10): error C1083: РќРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» РІРєР»СЋС‡РµРЅРёРµ: pthread.h: No such file or directory, [C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-jgbah6\\cmTC_c4df9.vcxproj]
+        
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 1
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.64
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "external/glfw/CMakeLists.txt:52 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-4psrq7"
+      binary: "C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-4psrq7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Gosha/source/repos/Perumbra/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-4psrq7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_221c6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.14.0-preview-25127-07+c012996cf РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 21.04.2025 12:00:06.
+        
+        РџСЂРѕРµРєС‚ "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4psrq7\\cmTC_221c6.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_221c6.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4psrq7\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_221c6.dir\\Debug\\cmTC_221c6.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_221c6.dir\\Debug\\cmTC_221c6.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_221c6.dir\\Debug\\cmTC_221c6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_221c6.dir\\Debug\\\\" /Fd"cmTC_221c6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4psrq7\\CheckFunctionExists.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.44.34918.1 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_221c6.dir\\Debug\\\\" /Fd"cmTC_221c6.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4psrq7\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4psrq7\\Debug\\cmTC_221c6.exe" /INCREMENTAL /ILK:"cmTC_221c6.dir\\Debug\\cmTC_221c6.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-4psrq7/Debug/cmTC_221c6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-4psrq7/Debug/cmTC_221c6.lib" /MACHINE:X64  /machine:x64 cmTC_221c6.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: РЅРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» "pthreads.lib" [C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4psrq7\\cmTC_221c6.vcxproj]
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4psrq7\\cmTC_221c6.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) СЃ РѕС€РёР±РєРѕР№.
+        
+        РћС€РёР±РєР° СЃР±РѕСЂРєРё.
+        
+        "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4psrq7\\cmTC_221c6.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (1) ->
+        (Р¦РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ Link) -> 
+          LINK : fatal error LNK1104: РЅРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» "pthreads.lib" [C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4psrq7\\cmTC_221c6.vcxproj]
+        
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 1
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.52
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "external/glfw/CMakeLists.txt:52 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-he7gpr"
+      binary: "C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-he7gpr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/Gosha/source/repos/Perumbra/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-he7gpr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8278e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.14.0-preview-25127-07+c012996cf РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 21.04.2025 12:00:07.
+        
+        РџСЂРѕРµРєС‚ "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he7gpr\\cmTC_8278e.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_8278e.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he7gpr\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_8278e.dir\\Debug\\cmTC_8278e.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_8278e.dir\\Debug\\cmTC_8278e.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_8278e.dir\\Debug\\cmTC_8278e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8278e.dir\\Debug\\\\" /Fd"cmTC_8278e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he7gpr\\CheckFunctionExists.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.44.34918.1 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8278e.dir\\Debug\\\\" /Fd"cmTC_8278e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he7gpr\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.44.34918\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he7gpr\\Debug\\cmTC_8278e.exe" /INCREMENTAL /ILK:"cmTC_8278e.dir\\Debug\\cmTC_8278e.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-he7gpr/Debug/cmTC_8278e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Gosha/source/repos/Perumbra/build/CMakeFiles/CMakeScratch/TryCompile-he7gpr/Debug/cmTC_8278e.lib" /MACHINE:X64  /machine:x64 cmTC_8278e.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: РЅРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» "pthread.lib" [C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he7gpr\\cmTC_8278e.vcxproj]
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he7gpr\\cmTC_8278e.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) СЃ РѕС€РёР±РєРѕР№.
+        
+        РћС€РёР±РєР° СЃР±РѕСЂРєРё.
+        
+        "C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he7gpr\\cmTC_8278e.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (1) ->
+        (Р¦РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ Link) -> 
+          LINK : fatal error LNK1104: РЅРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» "pthread.lib" [C:\\Users\\Gosha\\source\\repos\\Perumbra\\build\\CMakeFiles\\CMakeScratch\\TryCompile-he7gpr\\cmTC_8278e.vcxproj]
+        
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 1
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.49
+        
+      exitCode: 1
+...

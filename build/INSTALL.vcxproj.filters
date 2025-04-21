@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gosha\source\repos\Perumbra\build\CMakeFiles\97c7b71cf6ef9e14217204c2de147638\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{99DC7D8D-5305-3D8B-A993-FD52C72B1042}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
